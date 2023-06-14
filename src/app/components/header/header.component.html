@@ -1,0 +1,62 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="box-shadow: 1px 2px 1px 1px lightgray">
+    <div class="container-fluid" >
+      <a class="navbar-brand" href="#"><img src="../../../assets/logo.png" width="80" height="80"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="col-sm-4">
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+      </div>
+      <div class="col-sm-5" >
+
+      </div>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">           
+            
+            </ul>
+              <ul class="navbar-nav ">
+              
+            </ul>
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Courses
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">JAVA</a></li>
+                  <li><a class="dropdown-item" href="#">Python</a></li>
+                  <li><a class="dropdown-item" href="#">React</a></li>
+                  <li><a class="dropdown-item" href="#">Angular</a></li>
+                  <li><a class="dropdown-item" href="#">Software Testing</a></li>
+                </ul>
+              </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Careers
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">JAVA</a></li>
+                    <li><a class="dropdown-item" href="#">Python</a></li>
+                    <li><a class="dropdown-item" href="#">React</a></li>
+                    <li><a class="dropdown-item" href="#">Angular</a></li>
+                    <li><a class="dropdown-item" href="#">Software Testing</a></li>
+                </ul>
+              </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" [routerLink]="['/register']">Register</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"[routerLink]="['/login']">Sign In</a>
+          </li>
+          <!-- -->
+          <!-- <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          </li> -->
+        </ul>
+        
+      </div>
+    </div>
+  </nav>
