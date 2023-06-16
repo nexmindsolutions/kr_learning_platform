@@ -1,5 +1,63 @@
 <app-header></app-header>
-<div class="container mt-3" style="margin-top: 80px !important; margin-bottom: 20px;">
+<div class="col-sm-6 col-xs-12">
+  <div>
+      <h2 class="classtag"> Register Now</h2>
+  </div>
+
+  <div class="classtag">
+      <label for="name-f"> First Name </label>
+      <input type="text" name="fname" id="name-f" placeholder="Enter your first name." required>
+  </div>
+
+  <div class="classtag">
+      <label for="name-l"> Last Name </label>
+      <input type="text" name="lname" id="name-l" placeholder="Enter your last name." required>
+  </div>
+
+  <div class="classtag">
+      <label for="email"> Email </label>
+      <input type="email" name="email" id="email" placeholder="Enter your email." required>
+  </div>
+
+  <div class="classtag">
+      <label for="course" multiple> Select the course you want to learn </label>
+      <select id="course" name="course">
+          <option value="Java"> Java </option>
+          <option value="Python"> Python </option>
+          <option value="Full Stack"> Full Stack </option>
+      </select>
+  </div>
+
+ <!-- <div class="classtag">
+     <label for="Country">Country</label>
+  <select id="country" name="country">
+     <option value="Afghanistan"> Afghanistan </option>
+     <option value="Aland Islands"> Aland Islands </option>
+     <option value="Albania"> Albania </option>
+  </select>
+ </div> -->
+
+ <div class="classtag">
+    <label for="pass"> Password </label>
+    <input type="Password" name="password" id="pass" placeholder="Enter your password." required>
+ </div>
+
+ <div class="classtag">
+    <label for="pass 2"> Confirm Password </label>
+    <input type="password" name="cnf password" id="pass 2" placeholder="Confirm your password." required>
+ </div>
+
+ <div class="classtag d-flex">
+    <input type="checkbox" id="chb" required><label for="chb">&nbsp;I accept all the terms and conditions.
+ </label>
+ </div>
+
+ <div class="classtag">
+    <input type="submit" value="Register">
+ </div>
+ 
+</div>
+<!-- <div class="container mt-3" style="margin-top: 80px !important; margin-bottom: 20px;">
     <form>
       <div class="row jumbotron box8">
         <div class="col-sm-12 mx-t3 mb-4">
@@ -538,5 +596,5 @@
   
       </div>
     </form>
-  </div>
+  </div> -->
   <app-footer></app-footer>

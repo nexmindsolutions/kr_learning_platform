@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./description.component.css']
 })
 export class DescriptionComponent {
+  faPhone = "faPhone"
 
 }
