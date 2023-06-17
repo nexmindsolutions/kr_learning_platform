@@ -13,13 +13,13 @@ export class CarouselComponent {
 
   ngOnInit(): void {
     this.slides[0] = {
-      src: './assets/bg1.jpg',
+      src: './assets/learning1.avif',
     };
     this.slides[1] = {
-      src: './assets/bg2.jpg',
+      src: './assets/learning6.jpg',
     }
     this.slides[2] = {
-      src: './assets/bg3.jpg',
+      src: './assets/learning4.avif',
     }
   }
 
